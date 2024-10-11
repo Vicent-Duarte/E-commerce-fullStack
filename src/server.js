@@ -1,3 +1,4 @@
+require('./models')
 const app = require('./app');
 const sequelize = require('./utils/connection');
 
@@ -12,7 +13,7 @@ const main = async () => {
         console.log(`👉 Link http://localhost:${PORT}`);
     } catch (error) {
         console.log(error)
-    }
-}
-
-main();
+    } 
+}  
+   
+main(); 
