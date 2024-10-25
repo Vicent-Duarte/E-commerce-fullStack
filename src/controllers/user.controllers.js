@@ -28,7 +28,7 @@ const login = catchError(async(req, res) => {
   delete userData.password
   const token = jwt.sign(userData, process.env.TOKEN_SECRET, { expiresIn: '1d' })
   return res.json({ ...userData, token });
-})
+});
 
 const remove = catchError(async(req, res) => {
     const { id } = req.params;
