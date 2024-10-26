@@ -27,9 +27,9 @@ beforeAll(async () => {
   category = await Category.create({ name: 'tennis' })
 
   product = {
-    title: 'tennis negros',
+    title: 'Iphone 11 Pro Max',
     description: 'lorem 20',
-    price: 15.00,
+    price: 1000.00,
     categoryId: category.id
   }
 })
