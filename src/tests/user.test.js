@@ -9,8 +9,8 @@ let userId
 
 beforeAll(async () => {
   const user = {
-    email: "juan@gmail.com",
-    password: "juan1234"
+    email: "vicentduarte70@gmail.com",
+    password: "12640330"
   }
   const res = await request(app)
     .post(`${BASE_URL}/login`)
